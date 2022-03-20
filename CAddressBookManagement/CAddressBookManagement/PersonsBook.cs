@@ -49,6 +49,21 @@ namespace CAddressBookManagement
             }
         }
 
+        public void Remove(string Name)
+        {
+            Persons_Book pers = null;
+            foreach (Persons_Book res in listName)
+            {
+                if (res.FirstName == Name)
+                {
+                    pers = res;
+                }
+            }
+            listName.Remove(pers);
+            string adding_AllDataIn_JsonFile = JsonConvert.SerializeObject(listName);
+            File.WriteAllText(@"E:\BridgeLabzAssignment\AddressBook.json", adding_AllDataIn_JsonFile);
+        }
+
         public void EditPerson(string firstName)
         {
             for (int i = 0; i < listName.Count; i++)

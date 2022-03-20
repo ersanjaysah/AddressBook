@@ -10,7 +10,7 @@ namespace CAddressBookManagement
 {
     public class Persons_Book
     {
-        public string FirstName;   //variables
+        public string FirstName;
         public string LastName;
         public string City;
         public string State;

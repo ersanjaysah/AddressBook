@@ -78,6 +78,11 @@ namespace CAddressBookManagement
                             obj.Display();
                         }
                         break;
+                    default:
+                        {
+                            Console.WriteLine("Please Enter The Correct Option\n");
+                        }
+                        break;
                 }
             }
         }

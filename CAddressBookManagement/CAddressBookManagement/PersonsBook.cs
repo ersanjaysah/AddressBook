@@ -91,7 +91,7 @@ namespace CAddressBookManagement
                     Console.WriteLine("Enter Email");
                     listName[i].Email = Console.ReadLine();
 
-                    Console.WriteLine("******************************");
+                    Console.WriteLine("****************************");
 
                 }
             }

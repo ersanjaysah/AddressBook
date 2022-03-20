@@ -44,6 +44,8 @@ namespace CAddressBookManagement
 
             obj.Display();
 
+            Console.WriteLine("Enter the First name to Edit");
+            obj.EditPerson(Console.ReadLine());
         }
     }
 }

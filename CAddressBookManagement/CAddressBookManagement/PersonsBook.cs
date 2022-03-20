@@ -51,6 +51,12 @@ namespace CAddressBookManagement
                 }
             }
 
+            public void Display()
+            {
+                foreach (Persons_Book eachPerson in listName)
+                {
+                    Console.WriteLine(eachPerson.Result());
+                }
+            }
         }
-    
 }

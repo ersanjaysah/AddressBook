@@ -42,6 +42,7 @@ namespace CAddressBookManagement
 
             obj.AddPersons_Details(obj1);
 
+            obj.Display();
 
         }
     }

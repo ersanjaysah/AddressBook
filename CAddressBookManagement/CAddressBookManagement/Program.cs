@@ -4,9 +4,9 @@ namespace CAddressBookManagement
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("\"Welcome To The Address Book Program\"\n");
         }
     }
 }
